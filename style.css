@@ -176,4 +176,10 @@ body {
         height: 80vw;
         width: 90vw;
     }
+    .start,.restart{
+        margin: 40vh 28vw;
+    }
+    .gameover{
+        left: 30vw;
+    }
 }
