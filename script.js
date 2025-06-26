@@ -1,5 +1,5 @@
 let direction = {x:0, y:0};
-let speed = 10;
+let speed = 8;
 let score=0;
 let score1=document.querySelector('.score');
 let board=document.getElementById('board');

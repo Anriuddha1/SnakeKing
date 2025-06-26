@@ -54,7 +54,7 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container-item{
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
     position:absolute;
     background-color: rgb(11, 83, 184);
@@ -118,4 +118,62 @@ nav{
 body {
   touch-action: none; /* Prevent scroll while swiping */
   overscroll-behavior: none;
+}
+
+@media screen and (max-width:800px){
+    #board{
+        height: 500px;
+    width: 500px;
+    }
+    .score{
+        margin:-1vw;
+    }
+    #output{
+        margin: -1vw;
+    }
+}
+@media screen and (max-width:660px){
+    #board{
+        height: 450px;
+    width: 450px;
+    }
+    .score{
+        margin:-1vw;
+    }
+    #output{
+        margin: -1vw;
+    }
+}
+@media screen and (max-width:600px){
+    .score{
+        font-size: 1.8vw;
+        margin:0 1vw;
+    }
+    #output{
+        font-size: 1.8vw;
+        margin:0 1vw;
+    }
+}
+@media screen and (max-width:560px){
+    #board{
+        height: 400px;
+    width: 400px;
+    }
+}
+@media screen and (max-width:500px){
+   .item{
+    left: 5vw;
+    top: 70vh;
+   }
+   .score{
+        font-size: 2.2vw;
+    }
+    #output{
+        font-size: 2.2vw;
+    }
+    #board{
+        margin-left: 10vw;
+        height: 80vw;
+        width: 90vw;
+    }
 }
